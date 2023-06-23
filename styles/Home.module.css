@@ -1,11 +1,1 @@
-.container {
-    background: linear-gradient(to right, #D2D7FF, #AAD7FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-user-select: none;
-    font-size: 32px;
-}
 
-.container h1 {
-    font-family: 'Pretendard', sans-serif;
-}
