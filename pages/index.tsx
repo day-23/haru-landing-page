@@ -1,26 +1,53 @@
-import styles from "../styles/Home.module.css";
+import Image from "next/image";
+import headerLogo from "@/public/assets/header-logo.svg";
+import Intro from "@/components/Intro";
 
 const HomePage = () => {
   return (
     <>
       <style jsx>{`
         .container {
-          background: linear-gradient(to right, #d2d7ff, #aad7ff);
-          background-clip: initial;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          user-select: all;
-          -webkit-user-select: none;
-          font-size: 32px;
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+
+          background-size: cover;
+          background-position: center;
+          background-image: url("/assets/gradation.png");
         }
 
-        .container h1 {
-          font-family: "Pretendard", sans-serif;
+        .header {
+          height: 120px;
+          width: 100vw;
+
+          position: absolute;
+          top: 0;
+          left: 0;
+
+          opacity: 1;
+          background: #ffffff1e;
+          backdrop-filter: blur(30px);
+          -webkit-backdrop-filter: blur(30px);
+        }
+
+        main {
+          margin-top: 120px;
         }
       `}</style>
 
       <div className="container">
-        <h1>Hello, Haru is comming soon.</h1>
+        <header className="header">
+          <Image
+            src={headerLogo}
+            alt="logo"
+            style={{ marginLeft: "60px", marginTop: "34px" }}
+          />
+        </header>
+
+        <main>
+          <Intro />
+        </main>
       </div>
     </>
   );
