@@ -14,7 +14,8 @@ const HomePage = () => {
 
           background-size: cover;
           background-position: center;
-          background-image: url("/assets/gradation.png");
+          background-image: url("/assets/iphone.png"),
+            url("/assets/gradation.png");
         }
 
         .header {
