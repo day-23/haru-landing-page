@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="129" height="129" viewBox="0 0 129 129">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9fa9ff"/>
+      <stop offset="1" stop-color="#15afff"/>
+    </linearGradient>
+    <filter id="타원_82" x="0" y="0" width="129" height="129" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="투두_완료미완료" data-name="투두 완료미완료" transform="translate(23 20)">
+    <g id="그룹_20428" data-name="그룹 20428" transform="translate(14.962 14.962)">
+      <g transform="matrix(1, 0, 0, 1, -37.96, -34.96)" filter="url(#타원_82)">
+        <g id="타원_82-2" data-name="타원 82" transform="translate(38 35)" stroke="#f1f1f5" stroke-width="8" fill="url(#linear-gradient)">
+          <circle cx="26.5" cy="26.5" r="26.5" stroke="none"/>
+          <circle cx="26.5" cy="26.5" r="30.5" fill="none"/>
+        </g>
+      </g>
+      <path id="패스_7721" data-name="패스 7721" d="M0,0H0L8.047,13.018,30.04,0" transform="matrix(0.966, -0.259, 0.259, 0.966, 11.849, 24.345)" fill="none" stroke="#fdfdfd" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+    <rect id="사각형_25054" data-name="사각형 25054" width="83" height="83" fill="none" opacity="0.5"/>
+  </g>
+</svg>

@@ -12,10 +12,11 @@ const HomePage = () => {
           display: flex;
           flex-direction: column;
 
-          background-size: cover;
-          background-position: center;
-          background-image: url("/assets/iphone.png"),
+          background-image: url("/assets/comment.svg"), url("/assets/todo.svg"),
+            url("/assets/like.svg"), url("/assets/iphone.png"),
             url("/assets/gradation.png");
+          background-repeat: no-repeat;
+          background-position: 57vw 20vh, 75vw 53vh, 40vw 73vh, center, center;
         }
 
         .header {
