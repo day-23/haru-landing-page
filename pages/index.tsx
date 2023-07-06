@@ -18,7 +18,7 @@ const HomePage = () => {
             url("/assets/like.svg"), url("/assets/iphone.png"),
             url("/assets/gradation.png");
           background-repeat: no-repeat;
-          background-position: 57vw 20vh, 75vw 53vh, 40vw 73vh, center, center;
+          background-position: 60% 20%, 79% 60%, 41% 80%, center, center;
         }
 
         .header {
