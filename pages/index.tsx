@@ -4,6 +4,7 @@ import Intro from "@/components/Intro";
 import Story from "@/components/Story";
 import TodoUsage from "@/components/TodoUsage";
 import CalendarUsage from "@/components/CalendarUsage";
+import SNSPostUsage from "@/components/SNSPostUsage";
 
 const HomePage = () => {
   return (
@@ -55,6 +56,7 @@ const HomePage = () => {
           <Story />
           <TodoUsage />
           <CalendarUsage />
+          <SNSPostUsage />
         </main>
       </div>
     </>

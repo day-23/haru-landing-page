@@ -19,7 +19,7 @@ const style = css`
     width: 1920px;
     height: 1080px;
 
-    padding-top: 276px;
+    padding-top: 140px;
     padding-left: 360px;
 
     background: #191919;
