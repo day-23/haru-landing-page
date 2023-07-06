@@ -2,14 +2,15 @@ import Image from "next/image";
 import headerLogo from "@/public/assets/header-logo.svg";
 import Intro from "@/components/Intro";
 import Story from "@/components/Story";
+import TodoUsage from "@/components/TodoUsage";
 
 const HomePage = () => {
   return (
     <>
       <style jsx>{`
         .container {
-          width: 100vw;
-          height: 100vh;
+          width: 1920px;
+          height: 1080px;
           display: flex;
           flex-direction: column;
 
@@ -21,8 +22,8 @@ const HomePage = () => {
         }
 
         .header {
+          width: 1920px;
           height: 120px;
-          width: 100vw;
 
           position: absolute;
           top: 0;
@@ -51,6 +52,7 @@ const HomePage = () => {
         <main>
           <Intro />
           <Story />
+          <TodoUsage />
         </main>
       </div>
     </>

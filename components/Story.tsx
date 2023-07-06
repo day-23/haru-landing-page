@@ -8,8 +8,8 @@ const Story = () => {
           background-position: 0 -40vh;
           background-size: cover;
 
-          min-width: 100vw;
-          min-height: 100vh;
+          width: 1920px;
+          height: 1080px;
 
           padding-top: 140px;
           padding-left: 360px;
