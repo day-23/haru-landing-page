@@ -3,6 +3,7 @@ import headerLogo from "@/public/assets/header-logo.svg";
 import Intro from "@/components/Intro";
 import Story from "@/components/Story";
 import TodoUsage from "@/components/TodoUsage";
+import CalendarUsage from "@/components/CalendarUsage";
 
 const HomePage = () => {
   return (
@@ -53,6 +54,7 @@ const HomePage = () => {
           <Intro />
           <Story />
           <TodoUsage />
+          <CalendarUsage />
         </main>
       </div>
     </>

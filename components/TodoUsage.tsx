@@ -1,7 +1,7 @@
-import Image from "next/image";
-import css from "styled-jsx/css";
 import iphone1 from "@/public/assets/iphone-todo-1.png";
 import iphone2 from "@/public/assets/iphone-todo-2.png";
+import Image from "next/image";
+import css from "styled-jsx/css";
 
 const style = css`
   * {
