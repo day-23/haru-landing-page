@@ -45,7 +45,7 @@ const style = css`
     top: 0;
 
     margin-left: 80px;
-    margin-top: -1%;
+    margin-top: -8%;
 
     display: flex;
     flex-direction: row;

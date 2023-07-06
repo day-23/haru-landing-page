@@ -37,6 +37,11 @@ const HomePage = () => {
           -webkit-backdrop-filter: blur(30px);
         }
 
+        .divider {
+          height: 0.5px;
+          background: #acacac;
+        }
+
         main {
           margin-top: 120px;
         }
@@ -56,6 +61,7 @@ const HomePage = () => {
           <Story />
           <TodoUsage />
           <CalendarUsage />
+          <div className="divider" />
           <SNSPostUsage />
         </main>
       </div>
