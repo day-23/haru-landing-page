@@ -1,6 +1,7 @@
 import Image from "next/image";
 import headerLogo from "@/public/assets/header-logo.svg";
 import Intro from "@/components/Intro";
+import Story from "@/components/Story";
 
 const HomePage = () => {
   return (
@@ -49,6 +50,7 @@ const HomePage = () => {
 
         <main>
           <Intro />
+          <Story />
         </main>
       </div>
     </>

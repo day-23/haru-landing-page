@@ -7,7 +7,8 @@ const Intro = () => {
       <style jsx>{`
         .container {
           position: relative;
-          height: 100%;
+          width: 100vw;
+          height: calc(100vh - 120px);
         }
 
         p {
