@@ -1,9 +1,8 @@
-import Image from "next/image";
-import styled from "styled-components";
-import css from "styled-jsx/css";
 import iphone1 from "@/public/assets/iphone-calendar-1.png";
 import iphone2 from "@/public/assets/iphone-calendar-2.png";
 import iphone3 from "@/public/assets/iphone-calendar-3.png";
+import Image from "next/image";
+import css from "styled-jsx/css";
 
 const style = css`
   * {

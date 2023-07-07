@@ -1,9 +1,9 @@
-import css from "styled-jsx/css";
 import iphone1 from "@/public/assets/iphone-sns-1.png";
 import iphone2 from "@/public/assets/iphone-sns-2.png";
 import iphone3 from "@/public/assets/iphone-sns-3.png";
 import modal from "@/public/assets/sns-modal.png";
 import Image from "next/image";
+import css from "styled-jsx/css";
 
 const style = css`
   * {

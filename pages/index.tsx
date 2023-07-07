@@ -1,10 +1,11 @@
-import Image from "next/image";
-import headerLogo from "@/public/assets/header-logo.svg";
+import CalendarUsage from "@/components/CalendarUsage";
 import Intro from "@/components/Intro";
+import SNSDailyUsage from "@/components/SNSDailyUsage";
+import SNSPostUsage from "@/components/SNSPostUsage";
 import Story from "@/components/Story";
 import TodoUsage from "@/components/TodoUsage";
-import CalendarUsage from "@/components/CalendarUsage";
-import SNSPostUsage from "@/components/SNSPostUsage";
+import headerLogo from "@/public/assets/header-logo.svg";
+import Image from "next/image";
 
 const HomePage = () => {
   return (
@@ -63,6 +64,7 @@ const HomePage = () => {
           <CalendarUsage />
           <div className="divider" />
           <SNSPostUsage />
+          <SNSDailyUsage />
         </main>
       </div>
     </>
