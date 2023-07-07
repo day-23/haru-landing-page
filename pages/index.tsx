@@ -1,5 +1,6 @@
 import CalendarUsage from "@/components/CalendarUsage";
 import CharacterDescription from "@/components/CharacterDescription";
+import Footer from "@/components/Footer";
 import Intro from "@/components/Intro";
 import SNSDailyUsage from "@/components/SNSDailyUsage";
 import SNSPostUsage from "@/components/SNSPostUsage";
@@ -68,6 +69,10 @@ const HomePage = () => {
           <SNSDailyUsage />
           <CharacterDescription />
         </main>
+
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </>
   );

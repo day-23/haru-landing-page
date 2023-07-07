@@ -50,6 +50,7 @@ const style = css`
     align-items: center;
 
     margin-left: -5%;
+    margin-top: -120px;
   }
 `;
 
