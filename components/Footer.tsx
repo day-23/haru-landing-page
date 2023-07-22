@@ -128,7 +128,6 @@ const Footer = () => {
         <div className="information">
           <div className="content">
             <p>TEAM. 데이셋</p>
-            <p>사업자등록번호</p>
             <p>CONTACT. mmj9808@gmail.com</p>
             <p>23haru.com</p>
           </div>
